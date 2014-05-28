@@ -3,6 +3,7 @@ Font Awesome Stylus
 
 Stylus Port for Font Awesome 4
 
+* Updated to 4.1.0
 * Updated to 4.0.3
 
 ## Installation
@@ -14,4 +15,4 @@ http://fortawesome.github.io/Font-Awesome
 ## Bower support
 `bower install font-awesome-stylus`
 
-Thanks [@vizo](https://github.com/vizo) 
+Thanks [@vizo](https://github.com/vizo)
