@@ -3,11 +3,11 @@
 
 fa-icon-rotate($degrees, $rotation)
   filter unquote("progid:DXImageTransform.Microsoft.BasicImage(rotation=" + $rotation + ")")
-  transform: rotate($degrees)
+  transform rotate($degrees)
 
 fa-icon-flip($horiz, $vert, $rotation)
   filter unquote("progid:DXImageTransform.Microsoft.BasicImage(rotation=" + $rotation + ", mirror=1)")
-  transform: scale($horiz, $vert)
+  transform scale($horiz, $vert)
 
 // Icon helper mixin
 fa($icon)
