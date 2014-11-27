@@ -1,0 +1,14 @@
+{
+  "name": "font-awesome-stylus",
+  "version": "1.2.0",
+  "homepage": "https://github.com/PhilT/Font-Awesome-Stylus",
+  "authors": "Raúl Hernández",
+  "description": "Stylus port for font-awesome (npm package)",
+  "main": "./stylus/index.styl",
+  "keywords": [
+    "font awesome",
+    "font awesome stylus"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
