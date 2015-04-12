@@ -1,5 +1,10 @@
 Font Awesome Stylus
 ===================
+<p align="left">
+  <img src="https://img.shields.io/npm/v/font-awesome-stylus.svg?style=flat-square">
+  <img src="https://img.shields.io/bower/v/font-awesome-stylus.svg?style=flat-square">
+  <img src="http://img.shields.io/npm/dm/font-awesome-stylus.svg?style=flat-square">
+</p>
 
 Stylus Port for Font Awesome 4
 
