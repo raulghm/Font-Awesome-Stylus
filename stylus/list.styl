@@ -5,14 +5,16 @@
   padding-left 0
   margin-left $fa-li-width
   list-style-type none
-  & > li
+
+  > li
     position relative
 
 .{$fa-css-prefix}-li
   position absolute
-  left -$fa-li-width
+  left -($fa-li-width)
   width $fa-li-width
   top (2em / 14)
   text-align center
+
   &.{$fa-css-prefix}-lg
-    left -$fa-li-width + (4em / 14)
+    left -($fa-li-width) + (4em / 14)
