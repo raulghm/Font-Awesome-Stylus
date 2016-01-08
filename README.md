@@ -14,11 +14,11 @@ Import index.styl in your project and configure fonts path correctly ($fa-font-p
 
 ## Example
 
-```
+```stylus
 // Set font path
-// $fa-font-path ?= "../fonts"
+$fa-font-path = "../fonts"
 // OR
-$fa-font-path ?= "http://netdna.bootstrapcdn.com/font-awesome/4.5.0/fonts"
+$fa-font-path = "http://netdna.bootstrapcdn.com/font-awesome/4.5.0/fonts"
 
 // Import component
 @import "../bower_components/Font-Awesome-Stylus/stylus/index"
@@ -28,11 +28,13 @@ $fa-font-path ?= "http://netdna.bootstrapcdn.com/font-awesome/4.5.0/fonts"
   fa(user)
 ```
 
-## Source
-http://fortawesome.github.io/Font-Awesome
-
 ## Bower support
-`bower install font-awesome-stylus`
-
+```
+bower install font-awesome-stylus`
+```
 ## NPM support
-`npm install font-awesome-stylus`
+```
+npm install font-awesome-stylus
+```
+### Original source
+http://fortawesome.github.io/Font-Awesome
