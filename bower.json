@@ -3,7 +3,7 @@
   "version": "4.5.0",
   "homepage": "https://github.com/raulghm/Font-Awesome-Stylus",
   "authors": "Raúl Hernández",
-  "description": "Stylus port for font-awesome",
+  "description": "Stylus port for font-awesome (bower component)",
   "main": [
     "./stylus/index.styl"
   ],
