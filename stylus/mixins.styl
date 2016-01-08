@@ -20,3 +20,9 @@ fa-icon-flip($horiz, $vert, $rotation)
   -webkit-transform scale($horiz, $vert)
   -ms-transform scale($horiz, $vert)
   transform scale($horiz, $vert)
+
+fa(icon)
+  fa-icon()
+
+  &:before
+    content $fa-var- + icon
