@@ -7,23 +7,32 @@ Font Awesome Stylus
 </p>
 
 
-Stylus Port for Font Awesome 4
-
-* Updated to 4.5.0
+> Stylus Port for Font Awesome 4.5.0
 
 ## Installation
 Import index.styl in your project and configure fonts path correctly ($fa-font-path)
+
+## Example
+
+```
+// Set font path
+// $fa-font-path ?= "../fonts"
+// OR
+$fa-font-path ?= "http://netdna.bootstrapcdn.com/font-awesome/4.5.0/fonts"
+
+// Import component
+@import "../bower_components/Font-Awesome-Stylus/stylus/index"
+
+// Include icon using mixin
+.my-icon
+  fa(user)
+```
 
 ## Source
 http://fortawesome.github.io/Font-Awesome
 
 ## Bower support
-
-    bower install font-awesome-stylus
-
-Thanks [@vizo](https://github.com/vizo)
-
+`bower install font-awesome-stylus`
 
 ## NPM support
-
-    npm install font-awesome-stylus
+`npm install font-awesome-stylus`
