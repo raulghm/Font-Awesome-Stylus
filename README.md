@@ -30,7 +30,7 @@ $fa-font-path = "http://netdna.bootstrapcdn.com/font-awesome/4.5.0/fonts"
 
 ## Bower support
 ```
-bower install font-awesome-stylus`
+bower install font-awesome-stylus
 ```
 ## NPM support
 ```
