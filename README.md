@@ -12,7 +12,7 @@ Font Awesome Stylus
 ## Installation
 Import index.styl in your project and configure fonts path correctly ($fa-font-path)
 
-## Example
+## Usage
 
 ```stylus
 // Set font path
