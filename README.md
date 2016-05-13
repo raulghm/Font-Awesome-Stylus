@@ -7,7 +7,7 @@ Font Awesome Stylus
 </p>
 
 
-> Stylus Port for Font Awesome 4.5.0
+> Stylus Port for Font Awesome
 
 ## Installation
 Import index.styl in your project and configure fonts path correctly ($fa-font-path)
