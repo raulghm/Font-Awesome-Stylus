@@ -18,7 +18,7 @@ Import index.styl in your project and configure fonts path correctly ($fa-font-p
 // Set font path
 $fa-font-path = "../fonts"
 // OR
-$fa-font-path = "http://netdna.bootstrapcdn.com/font-awesome/4.6.3/fonts"
+$fa-font-path = "http://netdna.bootstrapcdn.com/font-awesome/4.7.3/fonts"
 
 // Import component
 @import "../bower_components/Font-Awesome-Stylus/stylus/index"
