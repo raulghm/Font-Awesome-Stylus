@@ -10,26 +10,36 @@ Font Awesome Stylus
 > Stylus Port for Font Awesome
 
 ## Installation
-Import index.styl in your project and configure fonts path correctly ($fa-font-path)
+Import font-awesome in your project and configure fonts path correctly ($fa-font-path)
+
+## Bower support
+```
+bower install font-awesome-stylus
+```
+## NPM support
+```
+npm install font-awesome-stylus
+```
 
 ## Usage
-
 Set font path
 ```stylus
 $fa-font-path = "../fonts"
 // OR
 $fa-font-path = "http://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts"
+```
 
 Example of requiring and using font-awesome middleware to create compile function to utilize in other frameworks.
 ```javascript
 var fontAwesome = require('font-awesome-stylus'),
-    stylus    = require('stylus');
+    stylus      = require('stylus');
 
 function compile(str) {
   return stylus(str)
     .use(fontAwesome());
 }
 ```
+
 To import whole font-awesome in your stylus file:
 ```stylus
 @import "font-awesome"
@@ -41,13 +51,5 @@ Include icon using mixin
   fa(user)
 ```
 
-## Bower support
-```
-bower install font-awesome-stylus
-```
-## NPM support
-```
-npm install font-awesome-stylus
-```
 ### Original source
 http://fortawesome.github.io/Font-Awesome
