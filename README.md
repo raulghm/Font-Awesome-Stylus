@@ -14,16 +14,29 @@ Import index.styl in your project and configure fonts path correctly ($fa-font-p
 
 ## Usage
 
+Set font path
 ```stylus
-// Set font path
 $fa-font-path = "../fonts"
 // OR
 $fa-font-path = "http://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts"
 
-// Import component
-@import "../bower_components/Font-Awesome-Stylus/stylus/index"
+Example of requiring and using font-awesome middleware to create compile function to utilize in other frameworks.
+```javascript
+var fontAwesome = require('font-awesome-stylus'),
+    stylus    = require('stylus');
 
-// Include icon using mixin
+function compile(str) {
+  return stylus(str)
+    .use(fontAwesome());
+}
+```
+To import whole font-awesome in your stylus file:
+```stylus
+@import "font-awesome"
+```
+
+Include icon using mixin
+```
 .my-icon
   fa(user)
 ```

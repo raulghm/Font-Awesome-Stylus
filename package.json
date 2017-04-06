@@ -4,7 +4,7 @@
   "homepage": "https://github.com/raulghm/Font-Awesome-Stylus",
   "authors": "Raul Hernandez",
   "description": "Stylus port for font-awesome",
-  "main": "./stylus/index.styl",
+  "main": "index.js",
   "scripts": {
     "build": "stylus example/src/styles.styl --out example/dist/styles.css"
   },
