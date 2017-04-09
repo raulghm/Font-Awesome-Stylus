@@ -1,17 +1,13 @@
 {
   "name": "font-awesome-stylus",
-  "version": "4.7.0",
+  "version": "4.7.0-dev",
   "homepage": "https://github.com/raulghm/Font-Awesome-Stylus",
   "authors": "Raul Hernandez",
   "description": "Stylus port for font-awesome (bower component)",
-  "main": [
-    "./stylus/index.styl"
-  ],
+  "main": "./index.styl",
   "keywords": [
     "font awesome",
     "font awesome stylus"
   ],
-  "license": "MIT",
-  "ignore": {},
-  "dependencies": {}
+  "license": "MIT"
 }

@@ -42,7 +42,7 @@ function compile(str) {
 
 To import whole font-awesome in your stylus file:
 ```stylus
-@import "font-awesome"
+@import "font-awesome-stylus"
 ```
 
 Include icon using mixin

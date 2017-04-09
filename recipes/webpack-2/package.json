@@ -1,0 +1,17 @@
+{
+  "name": "webpack2-recipe",
+  "description": "Simple recipe using font-awesome-stylus and Webpack 2",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "style-loader": "^0.16.1",
+    "stylus-loader": "^3.0.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.3"
+  }
+}
