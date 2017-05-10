@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var gulpStylus = require('gulp-stylus');
-var fontAwesome = require('../../lib/font-awesome-stylus');
+var fontAwesome = require('font-awesome-stylus');
 
 gulp.task('build', function () {
 	return gulp.src('./test.styl')

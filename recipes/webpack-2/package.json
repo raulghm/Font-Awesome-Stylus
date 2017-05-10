@@ -6,12 +6,16 @@
     "build": "webpack --config webpack.config.js"
   },
   "devDependencies": {
-    "css-loader": "^0.28.0",
+    "css-loader": "^0.28.1",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
-    "style-loader": "^0.16.1",
+    "style-loader": "^0.17",
     "stylus-loader": "^3.0.1",
+    "stylus": "^0.54.5",
     "url-loader": "^0.5.8",
-    "webpack": "^2.3.3"
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "font-awesome-stylus": "^4.7.1"
   }
 }

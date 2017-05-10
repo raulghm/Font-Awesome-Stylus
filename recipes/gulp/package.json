@@ -8,6 +8,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "font-awesome-stylus": "^4.7.1",
     "gulp": "^3.9.1",
     "gulp-stylus": "^2.6.0"
   }
