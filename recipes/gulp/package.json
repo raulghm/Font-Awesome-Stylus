@@ -1,0 +1,14 @@
+{
+  "name": "gulp-recipe",
+  "version": "0.1.0",
+  "description": "Simple recipe using gulp",
+  "scripts": {
+    "build": "gulp"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.6.0"
+  }
+}

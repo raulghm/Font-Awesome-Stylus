@@ -10,23 +10,7 @@ Font Awesome Stylus
 > Stylus Port for Font Awesome
 
 ## Installation
-Import index.styl in your project and configure fonts path correctly ($fa-font-path)
-
-## Usage
-
-```stylus
-// Set font path
-$fa-font-path = "../fonts"
-// OR
-$fa-font-path = "http://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts"
-
-// Import component
-@import "../bower_components/Font-Awesome-Stylus/stylus/index"
-
-// Include icon using mixin
-.my-icon
-  fa(user)
-```
+Import font-awesome in your project and configure fonts path correctly ($fa-font-path)
 
 ## Bower support
 ```
@@ -36,5 +20,36 @@ bower install font-awesome-stylus
 ```
 npm install font-awesome-stylus
 ```
+
+## Usage
+Set font path
+```stylus
+$fa-font-path = "../fonts"
+// OR
+$fa-font-path = "http://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts"
+```
+
+Example of requiring and using font-awesome middleware to create compile function to utilize in other frameworks.
+```javascript
+var fontAwesome = require('font-awesome-stylus'),
+    stylus      = require('stylus');
+
+function compile(str) {
+  return stylus(str)
+    .use(fontAwesome());
+}
+```
+
+To import whole font-awesome in your stylus file:
+```stylus
+@import "font-awesome-stylus"
+```
+
+Include icon using mixin
+```
+.my-icon
+  fa(user)
+```
+
 ### Original source
 http://fortawesome.github.io/Font-Awesome
